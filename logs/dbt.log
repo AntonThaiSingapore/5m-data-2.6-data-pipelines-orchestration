@@ -28,3 +28,87 @@ Happy modeling!
 [0m20:48:50.979793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79482f135290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7948336bf850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7948336fbc50>]}
 [0m20:48:50.980329 [debug] [MainThread]: Flushing usage events
 [0m20:48:53.322480 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:18:05.815373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712eee127590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712eeef6d350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712eee3b67d0>]}
+
+
+============================== 21:18:05.819093 | 4c4ba758-f659-4b28-8890-1223c1f1e51a ==============================
+[0m21:18:05.819093 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:18:05.819560 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'indirect_selection': 'eager', 'debug': 'False', 'empty': 'None', 'static_parser': 'True', 'quiet': 'False', 'no_print': 'None', 'invocation_command': 'dbt debug', 'log_format': 'default', 'fail_fast': 'False', 'profiles_dir': '/home/anton/.dbt', 'log_path': 'logs', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'use_colors': 'True', 'printer_width': '80', 'partial_parse': 'True', 'log_cache_events': 'False', 'write_json': 'True'}
+[0m21:18:05.835995 [info ] [MainThread]: dbt version: 1.11.11
+[0m21:18:05.836444 [info ] [MainThread]: python version: 3.11.14
+[0m21:18:05.836817 [info ] [MainThread]: python path: /home/anton/miniconda3/envs/elt/bin/python
+[0m21:18:05.837197 [info ] [MainThread]: os info: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[0m21:18:09.237795 [info ] [MainThread]: Using profiles dir at /home/anton/.dbt
+[0m21:18:09.238252 [info ] [MainThread]: Using profiles.yml file at /home/anton/.dbt/profiles.yml
+[0m21:18:09.238590 [info ] [MainThread]: Using dbt_project.yml file at /home/anton/dsai/5m-data-2.6-data-pipelines-orchestration/dbt_project.yml
+[0m21:18:09.238914 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:18:09.239385 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 3.4634244, "process_in_blocks": "683488", "process_kernel_time": 0.800669, "process_mem_max_rss": "390020", "process_out_blocks": "16", "process_user_time": 2.691358}
+[0m21:18:09.239851 [debug] [MainThread]: Command `dbt debug` failed at 21:18:09.239769 after 3.46 seconds
+[0m21:18:09.240123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712eedfa3fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712eedfa0d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712eef111b90>]}
+[0m21:18:09.240419 [debug] [MainThread]: Flushing usage events
+[0m21:18:10.575934 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:21:22.972882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756539b8510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x775653887e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77565388bd50>]}
+
+
+============================== 21:21:22.977370 | 90d71d2a-048b-46f8-8afc-438362a54ae2 ==============================
+[0m21:21:22.977370 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:21:22.977886 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/anton/.dbt', 'log_format': 'default', 'partial_parse': 'True', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'indirect_selection': 'eager', 'static_parser': 'True', 'write_json': 'True', 'target_path': 'None', 'invocation_command': 'dbt init resale_flat', 'warn_error': 'None', 'quiet': 'False', 'empty': 'None', 'version_check': 'True', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'log_path': 'logs'}
+[0m21:21:22.994795 [info ] [MainThread]: A project called resale_flat already exists here.
+[0m21:21:22.996206 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.063854605, "process_in_blocks": "146544", "process_kernel_time": 0.245062, "process_mem_max_rss": "104088", "process_out_blocks": "8", "process_user_time": 0.972215}
+[0m21:21:22.996592 [debug] [MainThread]: Command `dbt init` succeeded at 21:21:22.996504 after 0.06 seconds
+[0m21:21:22.996955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x775653c2b350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x775658104b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x775658104910>]}
+[0m21:21:22.997290 [debug] [MainThread]: Flushing usage events
+[0m21:21:24.070371 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:21:59.292601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f23848c550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f23890a790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f2384d7cd0>]}
+
+
+============================== 21:21:59.296403 | d5cfeb32-2698-435f-a5fb-847d3292f376 ==============================
+[0m21:21:59.296403 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:21:59.296868 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'invocation_command': 'dbt init resale_flat', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'use_experimental_parser': 'False', 'profiles_dir': '/home/anton/.dbt', 'partial_parse': 'True', 'log_format': 'default', 'no_print': 'None', 'write_json': 'True', 'introspect': 'True', 'printer_width': '80', 'version_check': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'fail_fast': 'False', 'empty': 'None', 'static_parser': 'True'}
+[0m21:21:59.315867 [debug] [MainThread]: Starter project path: /home/anton/miniconda3/envs/elt/lib/python3.11/site-packages/dbt/include/starter_project
+[0m21:21:59.322521 [info ] [MainThread]: 
+Your new dbt project "resale_flat" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:21:59.322901 [info ] [MainThread]: Setting up your profile.
+[0m21:24:14.529546 [info ] [MainThread]: Profile resale_flat written to /home/anton/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:24:14.531884 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 135.27805, "process_in_blocks": "684056", "process_kernel_time": 0.799264, "process_mem_max_rss": "388676", "process_out_blocks": "80", "process_user_time": 2.719106}
+[0m21:24:14.533271 [debug] [MainThread]: Command `dbt init` succeeded at 21:24:14.533089 after 135.28 seconds
+[0m21:24:14.534012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f23cfc9a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f23cefbbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f23cd04790>]}
+[0m21:24:14.534661 [debug] [MainThread]: Flushing usage events
+[0m21:24:16.403494 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:24:31.754013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab2e411bd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab2e411bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab2e4f7cad0>]}
+
+
+============================== 21:24:31.758106 | e8b6815d-89cd-4281-9976-f6be14c11e4d ==============================
+[0m21:24:31.758106 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:24:31.758666 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'empty': 'None', 'printer_width': '80', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'profiles_dir': '/home/anton/.dbt', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'warn_error': 'None', 'log_path': 'logs', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'use_colors': 'True', 'target_path': 'None', 'cache_selected_only': 'False'}
+[0m21:24:31.777465 [info ] [MainThread]: dbt version: 1.11.11
+[0m21:24:31.777903 [info ] [MainThread]: python version: 3.11.14
+[0m21:24:31.778247 [info ] [MainThread]: python path: /home/anton/miniconda3/envs/elt/bin/python
+[0m21:24:31.778648 [info ] [MainThread]: os info: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[0m21:24:35.072492 [info ] [MainThread]: Using profiles dir at /home/anton/.dbt
+[0m21:24:35.072982 [info ] [MainThread]: Using profiles.yml file at /home/anton/.dbt/profiles.yml
+[0m21:24:35.073301 [info ] [MainThread]: Using dbt_project.yml file at /home/anton/dsai/5m-data-2.6-data-pipelines-orchestration/dbt_project.yml
+[0m21:24:35.073635 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:24:35.074109 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 3.3602288, "process_in_blocks": "439912", "process_kernel_time": 0.647123, "process_mem_max_rss": "389928", "process_out_blocks": "8", "process_user_time": 2.676169}
+[0m21:24:35.074577 [debug] [MainThread]: Command `dbt debug` failed at 21:24:35.074499 after 3.36 seconds
+[0m21:24:35.074855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab2e8a07890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab2e5105d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab2e41176d0>]}
+[0m21:24:35.075145 [debug] [MainThread]: Flushing usage events
+[0m21:24:37.168173 [debug] [MainThread]: An error was encountered while trying to flush usage events

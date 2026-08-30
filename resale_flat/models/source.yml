@@ -1,5 +1,6 @@
 version: 2
+
 sources:
   - name: resale
-    table: 
+    tables:
       - name: public_resale_flat_prices_from_jan_2017
